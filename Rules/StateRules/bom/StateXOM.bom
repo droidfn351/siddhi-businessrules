@@ -1,0 +1,16 @@
+
+property loadGetterSetterAsProperties "true"
+property origin "xom:/StateRules//StateXOM"
+property uuid "43f953d6-857e-4c94-b7da-6012978f0a64"
+package com.droidfn.st;
+
+
+public class Customer
+{
+    public string CID;
+    public int ship;
+    public string state;
+    public int tax;
+    public Customer();
+}
+

@@ -1,0 +1,21 @@
+
+
+flowtask mainRuleflow {
+  property mainflowtask = true;
+  property ilog.rules.business_name = "mainRuleflow";
+  property ilog.rules.package_name = "";
+  body {
+    mainRuleflow#rulePackage;
+  }
+};
+
+ruletask mainRuleflow#rulePackage {
+  property ilog.rules.business_name = "mainRuleflow>rulePackage";
+  property ilog.rules.package_name = "";
+  algorithm = default;
+  ordering = dynamic;
+  body {
+    rulePackage.*
+  }
+};
+

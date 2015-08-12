@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>s3</name>
+  <uuid>094daf30-b3a7-447b-9dd3-51254aa5cf51</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[if the state of 'the customer' is "ST3" 
+then  set the tax of 'the customer' to 3; ]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>C2&amp;C3</name>
+  <uuid>2154f32f-3ae3-49fe-9277-2623e47c9025</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[if the c1 of 'the customer' equals -99 
+then set the disc of 'the customer' to 30;  ]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

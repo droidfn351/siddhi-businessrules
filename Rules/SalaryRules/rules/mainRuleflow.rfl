@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.ruleflow:RuleFlow xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.ruleflow="http://ilog.rules.studio/model/ruleflow.ecore">
+  <name>mainRuleflow</name>
+  <uuid>c94e0cb3-b1cb-44ee-bdc1-68e10168c039</uuid>
+  <locale>en_US</locale>
+  <categories>any</categories>
+  <rfModel>
+<Ruleflow xmlns="http://schemas.ilog.com/Rules/7.0/Ruleflow">
+  <Body>
+    <TaskList>
+      <StartTask Identifier="task_1"/>
+      <RuleTask ExecutionMode="RetePlus" ExitCriteria="None" Identifier="rulePackage" Ordering="Default">
+        <RuleList>
+          <Package Name="rulePackage"/>
+        </RuleList>
+      </RuleTask>
+      <StopTask Identifier="task_2"/>
+    </TaskList>
+    <NodeList>
+      <TaskNode Identifier="node_0" Task="task_1"/>
+      <TaskNode Identifier="node_1" Task="task_2"/>
+      <TaskNode Identifier="node_2" Task="rulePackage"/>
+    </NodeList>
+    <TransitionList>
+      <Transition Identifier="transition_1" Source="node_2" Target="node_1"/>
+      <Transition Identifier="transition_0" Source="node_0" Target="node_2"/>
+    </TransitionList>
+  </Body>
+  <Resources>
+    <ResourceSet Locale="en_US">
+      <Data Name="node_2#height">53.402344</Data>
+      <Data Name="node_0#y">40.0</Data>
+      <Data Name="node_2#name">node_2</Data>
+      <Data Name="node_0#x">72.1171875</Data>
+      <Data Name="node_2#width">102.0</Data>
+      <Data Name="node_1#x">72.1171875</Data>
+      <Data Name="node_1#y">170.0</Data>
+      <Data Name="node_2#x">72.11719</Data>
+      <Data Name="node_2#y">106.0</Data>
+      <Data Name="node_1#name">node_1</Data>
+      <Data Name="node_0#name">node_0</Data>
+    </ResourceSet>
+  </Resources>
+  <Properties>
+    <imports/>
+  </Properties>
+</Ruleflow>
+</rfModel>
+  <mainFlowTask>true</mainFlowTask>
+</ilog.rules.studio.model.ruleflow:RuleFlow>

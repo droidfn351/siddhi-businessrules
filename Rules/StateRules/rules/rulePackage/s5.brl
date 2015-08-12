@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>s5</name>
+  <uuid>9662d72c-d057-4119-b348-b1c5605631df</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[if the state of 'the customer' is "ST5" 
+then  set the tax of 'the customer' to 5; ]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

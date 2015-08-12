@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RuleApp>
+   <ruleset>
+      <kind>ruleproject</kind>
+      <display-name>StateRules</display-name>
+      <name>StateRules</name>
+      <version>1.0</version>
+      <fullpath>runtime/StateRules10.jar</fullpath>
+      <location>StateRules</location>
+      <export>true</export>
+   </ruleset>
+</RuleApp>
+

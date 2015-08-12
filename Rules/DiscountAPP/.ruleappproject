@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RuleApp>
+   <ruleset>
+      <kind>ruleproject</kind>
+      <display-name>DiscountRules</display-name>
+      <name>DiscountRules</name>
+      <version>1.0</version>
+      <fullpath>runtime/DiscountRules10.jar</fullpath>
+      <location>DiscountRules</location>
+      <export>true</export>
+   </ruleset>
+</RuleApp>
+

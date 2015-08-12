@@ -1,0 +1,14 @@
+package rulePackage {
+   rule s2 {
+      property ilog.rules.business_name = "s2";
+      property ilog.rules.package_name = "rulePackage";
+      property status = "new";
+      when {
+         com.droidfn.st.Customer() from cust;
+         evaluate ((cust.state.equals("ST2")));
+      } then {
+         cust.tax = 2;
+      }
+   }
+}
+

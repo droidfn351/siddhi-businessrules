@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>s11</name>
+  <uuid>d1c1697a-a757-4b95-9d27-bf21fa21b140</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[if the state of 'the customer' ends with `1` or the state of 'the customer' ends with `2` 
+then set the ship of 'the customer' to 30; 
+else set the ship of 'the customer' to 50;    ]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

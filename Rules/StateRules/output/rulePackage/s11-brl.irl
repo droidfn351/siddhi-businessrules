@@ -1,0 +1,17 @@
+package rulePackage {
+   rule s11 {
+      property ilog.rules.business_name = "s11";
+      property ilog.rules.package_name = "rulePackage";
+      property status = "new";
+      when {
+         com.droidfn.st.Customer() from cust;
+         evaluate ((cust.state.length() > 0 && cust.state.charAt(cust.state.length()-1) == '1')
+         	|| (cust.state.length() > 0 && cust.state.charAt(cust.state.length()-1) == '2'));
+      } then {
+         cust.ship = 30;
+      } else {
+         cust.ship = 50;
+      }
+   }
+}
+

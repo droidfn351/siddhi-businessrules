@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>C1&amp;C2&amp;C3</name>
+  <uuid>1d98f0c0-d8c5-4ce2-857a-e135b1d3cc55</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[if the c1 of 'the customer' does not equal -99 and the c2 of 'the customer' does not equal -99 and the c3 of 'the customer' does not equal -99 
+then set the disc of 'the customer' to 35;  ]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

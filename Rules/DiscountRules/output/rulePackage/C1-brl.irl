@@ -1,0 +1,15 @@
+package rulePackage {
+   rule C1 {
+      property ilog.rules.business_name = "C1";
+      property ilog.rules.package_name = "rulePackage";
+      property status = "new";
+      when {
+         com.droidfn.dis.Customer() from thecustomer;
+         evaluate ((thecustomer.c2 == -99
+         	&& thecustomer.c3 == -99));
+      } then {
+         thecustomer.disc = 5;
+      }
+   }
+}
+

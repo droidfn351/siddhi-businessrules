@@ -1,0 +1,27 @@
+
+property loadGetterSetterAsProperties "true"
+property origin "xom:/SalaryRules//SalaryXOM"
+property uuid "d945e4cf-8152-46bd-93c5-9f2cb85c1c46"
+package com.droidfn.salver;
+
+
+public class Employee
+{
+    public string company;
+    public readonly java.lang.Double dif;
+    public java.lang.Double grant;
+    public string name;
+    public java.lang.Double salary;
+    public Employee();
+    public void setDif();
+}
+
+public class Result
+{
+    public com.droidfn.salver.Employee emp;
+    public readonly java.util.List messages domain 0,* class string;
+    public Result();
+    public Result(com.droidfn.salver.Employee arg);
+    public void addMessage(string arg);
+}
+

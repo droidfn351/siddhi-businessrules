@@ -1,0 +1,17 @@
+
+property loadGetterSetterAsProperties "true"
+property origin "xom:/DiscountRules//DiscoundXOM"
+property uuid "f883b6cf-b453-44cd-9e88-6878069a30b5"
+package com.droidfn.dis;
+
+
+public class Customer
+{
+    public string CID;
+    public int c1;
+    public int c2;
+    public int c3;
+    public int disc;
+    public Customer();
+}
+

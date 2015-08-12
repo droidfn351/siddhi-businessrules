@@ -1,0 +1,15 @@
+package rulePackage {
+   rule trail1 {
+      property ilog.rules.business_name = "trail1";
+      property ilog.rules.package_name = "rulePackage";
+      property status = "new";
+      when {
+         com.droidfn.salver.Employee() from emp;
+         evaluate ((emp.salary.doubleValue() > 100000
+         	&& (emp.company.length() > 0 && emp.company.charAt(0) == 'I')));
+      } then {
+         emp.grant = java.lang.Double.valueOf((double) 20000 );
+      }
+   }
+}
+

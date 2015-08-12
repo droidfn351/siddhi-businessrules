@@ -1,0 +1,13 @@
+# Vocabulary Properties
+uuid = d8d6de06-ef23-4174-8f7b-1bd84f3aee66
+
+# com.droidfn.st.Customer
+com.droidfn.st.Customer#concept.label = customer
+com.droidfn.st.Customer.CID#phrase.action = set the CID of {this} to {CID}
+com.droidfn.st.Customer.CID#phrase.navigation = {CID} of {this}
+com.droidfn.st.Customer.ship#phrase.action = set the ship of {this} to {ship}
+com.droidfn.st.Customer.ship#phrase.navigation = {ship} of {this}
+com.droidfn.st.Customer.state#phrase.action = set the state of {this} to {state}
+com.droidfn.st.Customer.state#phrase.navigation = {state} of {this}
+com.droidfn.st.Customer.tax#phrase.action = set the tax of {this} to {tax}
+com.droidfn.st.Customer.tax#phrase.navigation = {tax} of {this}

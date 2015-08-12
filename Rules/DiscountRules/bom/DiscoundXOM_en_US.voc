@@ -1,0 +1,15 @@
+# Vocabulary Properties
+uuid = ebadba60-9979-4be2-a5ce-688b99036c49
+
+# com.droidfn.dis.Customer
+com.droidfn.dis.Customer#concept.label = customer
+com.droidfn.dis.Customer.CID#phrase.action = set the CID of {this} to {CID}
+com.droidfn.dis.Customer.CID#phrase.navigation = {CID} of {this}
+com.droidfn.dis.Customer.c1#phrase.action = set the c1 of {this} to {c1}
+com.droidfn.dis.Customer.c1#phrase.navigation = {c1} of {this}
+com.droidfn.dis.Customer.c2#phrase.action = set the c2 of {this} to {c2}
+com.droidfn.dis.Customer.c2#phrase.navigation = {c2} of {this}
+com.droidfn.dis.Customer.c3#phrase.action = set the c3 of {this} to {c3}
+com.droidfn.dis.Customer.c3#phrase.navigation = {c3} of {this}
+com.droidfn.dis.Customer.disc#phrase.action = set the disc of {this} to {disc}
+com.droidfn.dis.Customer.disc#phrase.navigation = {disc} of {this}

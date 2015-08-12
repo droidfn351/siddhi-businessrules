@@ -1,0 +1,20 @@
+# Vocabulary Properties
+uuid = 3d695d16-7339-4705-93bb-a9f11312c7ce
+
+# com.droidfn.salver.Employee
+com.droidfn.salver.Employee#concept.label = employee
+com.droidfn.salver.Employee.company#phrase.action = set the company of {this} to {company}
+com.droidfn.salver.Employee.company#phrase.navigation = {company} of {this}
+com.droidfn.salver.Employee.dif#phrase.navigation = {dif} of {this}
+com.droidfn.salver.Employee.grant#phrase.action = set the grant of {this} to {grant}
+com.droidfn.salver.Employee.grant#phrase.navigation = {grant} of {this}
+com.droidfn.salver.Employee.name#phrase.action = set the name of {this} to {name}
+com.droidfn.salver.Employee.name#phrase.navigation = {name} of {this}
+com.droidfn.salver.Employee.salary#phrase.action = set the salary of {this} to {salary}
+com.droidfn.salver.Employee.salary#phrase.navigation = {salary} of {this}
+
+# com.droidfn.salver.Result
+com.droidfn.salver.Result#concept.label = result
+com.droidfn.salver.Result.emp#phrase.action = set the emp of {this} to {emp}
+com.droidfn.salver.Result.emp#phrase.navigation = {emp} of {this}
+com.droidfn.salver.Result.messages#phrase.navigation = {message} of {this}
